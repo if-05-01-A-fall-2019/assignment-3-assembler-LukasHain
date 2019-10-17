@@ -1,0 +1,55 @@
+"Enter max Points:You entered:Enter Points:Percent achieved:"
+inc 12
+
+out 3
+lit 0
+lit 17
+lit 18
+out 2
+
+la 0 50
+la 0 54
+in 0
+sto
+out 3
+
+lit 17
+lit 12
+lit 13
+out 2
+
+lv 0 50
+lit 1
+out 0
+out 3
+out 3
+
+lit 29
+lit 13
+lit 14
+out 2
+
+la 0 58
+la 0 62
+in 0
+sto
+
+la 0 66
+lv 0 58
+lit 100
+mul
+lv 0 50
+div
+sto
+out 3
+
+lit 42
+lit 18
+lit 19
+out 2
+
+lv 0 66
+lit 1
+out 0
+out 3
+halt
